@@ -20,4 +20,6 @@ lista_diretorios = os.listdir(
 
 if len(lista_diretorios) == 0:
     # Download latest version
-    diretorio = kagglehub.dataset_download("lucaseloi13/brazilian-road-race-results")
+    download_dataset = kagglehub.dataset_download(
+        "lucaseloi13/brazilian-road-race-results", output_dir=str(diretorio)
+    )
