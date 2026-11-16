@@ -5,5 +5,13 @@
 raw/
 
 # Pasta .git
-
 .git/
+
+# macOS
+.DS_store
+
+# vscode
+.vscode/
+
+# Zed
+.zed/
