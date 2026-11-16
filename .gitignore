@@ -1,4 +1,5 @@
-
+# venv
+.venv/
 
 # Pasta com o dataset bruto
 raw/
